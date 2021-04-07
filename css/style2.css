@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url('../images/bg-header-desktop.svg'), #5DA5A4;
+    height: 10rem;
+    background-size: cover;
+}
+
+.sectionbg{
+    background-color: #F0FAFB;
+}
+.container{
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.media{
+    width: 650px;
+}
+label{
+    color: #9BC1C0;
+    font-weight: bold;
+}
+pre{
+    font-family: 'Roboto', sans-serif;
+}
+.border-left-7{
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #65A7A6;
+}
+
+.shadow{
+    box-shadow: rgb(218, 229, 229) 2px 2px 2px 1px;
+}
+
+.hash{
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    background-color: #F0F6F5;
+    color: #A7CACB;
+}
+pre{
+    color: #C0C5C5;;
+}
+@media (max-width: 1000px){
+    .container{
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+    .mimg{
+        margin-top: -50px;
+    }
+    .border-small{
+        width: 350px;
+        height: 250px;
+    }
+    .hash{
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .parag{
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        margin-left: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
